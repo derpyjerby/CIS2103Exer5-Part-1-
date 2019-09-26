@@ -17,12 +17,12 @@ public class Shape {
     private String color;
     private boolean filled;
     
-    public void Shape() {
+    public Shape() {
         this.color = "green";
         this.filled = true;
     }
     
-    public void Shape(String color, boolean filled) {
+    public Shape(String color, boolean filled) {
         this.color = color;
         this.filled = filled;
     }
