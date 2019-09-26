@@ -10,19 +10,40 @@ package exercise.pkg5.part.pkg1;
  *
  * @author pardoje_cis21035
  */
+
+import java.util.Scanner;
+
 public class Shape {
-    String color;
-    boolean filled; 
+    private String color;
+    private boolean filled;
     
-    public Shape(){
+    public void Shape() {
         this.color = "green";
         this.filled = true;
     }
     
-    public Shape(String kulo, boolean tof){
-        this.color = kulo;
-        this.filled = tof;
+    public void Shape(String color, boolean filled) {
+        this.color = color;
+        this.filled = filled;
     }
     
-    public getColor
+    public String getColor() {        
+        return this.color;
+    }
+    
+    public void setColor(String color) {
+        this.color = color;
+    }
+    
+    public boolean isFilled() {
+        return this.filled; 
+    }
+    
+    public void setFilled(boolean filled) {
+        this.filled = filled;
+    }
+    
+    public String toString () {
+        return "A Shape with color of " + color + "  and " + filled + "";
+    }
 }
