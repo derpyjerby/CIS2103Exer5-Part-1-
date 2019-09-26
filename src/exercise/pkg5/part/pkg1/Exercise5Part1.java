@@ -19,7 +19,6 @@ public class Exercise5Part1 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Scanner input = new Scanner(System.in);
         Shape lol = new Shape();
 //        Shape lolz = new Shape( , );
     }
