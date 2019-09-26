@@ -44,6 +44,6 @@ public class Shape {
     }
     
     public String toString () {
-        return "A Shape with color of " + this.color + "  and " + this.filled + "";
+        return String.format("A Shape with color of %s and %b", color, filled);
     }
 }
