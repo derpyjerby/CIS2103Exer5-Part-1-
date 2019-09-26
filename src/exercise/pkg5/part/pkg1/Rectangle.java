@@ -40,11 +40,11 @@ public class Rectangle extends Shape{
         return this.length;
     }
     
-    public setWidth (double width){
+    public void setWidth (double width){
         this.width = width;
     }
     
-    public setLength (double length){
+    public void setLength (double length){
         this.length = length;
     }
     
