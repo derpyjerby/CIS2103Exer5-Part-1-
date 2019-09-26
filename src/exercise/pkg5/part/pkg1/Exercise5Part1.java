@@ -19,8 +19,12 @@ public class Exercise5Part1 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Shape lol = new Shape();
-//        Shape lolz = new Shape( , );
+        Circle lal = new Circle(10);
+        Circle lol = new Circle();
+        Circle lel = new Circle (10, "blue", true);
+        System.out.print(lal);
+        System.out.print(lol);
+        System.out.print(lel);
     }
     
 }
