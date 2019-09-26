@@ -14,8 +14,8 @@ package exercise.pkg5.part.pkg1;
 import java.util.Scanner;
 
 public class Shape {
-    private String color;
-    private boolean filled;
+    String color;
+    boolean filled;
     
     public Shape() {
         this.color = "green";
